@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "play-tennis-orchestration"
+version = "0.1.0"
+description = "Orchestration for can play tennis or not"
+authors = ["roniabrahamTA <roni.abraham@tigeranalytics.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+apache-airflow = "^2.9.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
